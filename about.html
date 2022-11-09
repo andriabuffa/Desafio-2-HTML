@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 HTML - site "quase" completo</title>
+    <link rel="stylesheed" href="base.css">
+    <style>
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-self: center;
+        }
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: #1471B7;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: #1471B7;
+            padding: 10px 20px 0px;
+        }
+        .header {
+            background-color: rgb(136, 141, 141);
+            min-height: 150px;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #48cfad;
+            min-height: 150px;
+        }
+        </style>
+ </head>
+<body>
+    <div class="wrapper">
+        <div class="Menu">
+            <h2 align="center" style="color:white" title="Menu">Menu:</h2>
+            <ul>
+                <li><a href="index.html">Página principal.</a></li>
+                <li><a href="about.html">Sobre a clínica.</a></li>
+                <li><a href="timetable.html">Horário de atendimento.</a></li>
+                <li><a href="contact.html">Contato.</a></li>
+            </ul>
+        </div>
+    
+        <div class="main">
+            <div class="header">
+                <video width="1008" autoplay>
+                <source src="Capa Sobre a clínica.mp4" type="video/mp4"> 
+                <source src="Capa Sobre a clínica.webm" type="video/webm">
+                    Seu navegador não suporta o vídeo.
+                </video>
+                    <audio autoplay>
+                        <source src="I Don't Like Myself.mp3"/>
+                        Seu navegador não suporta o audio.
+                    </audio>
+            </div>
+    
+            <div class="content">
+                <h3 id="about" style="color: #48cfad">Sobre a clínica:</h3>
+                <h6><a href="index.html">(Voltar)</a></h6>
+                <p><strong>ATUAÇÃO DO CENTRO MÉDICO AB:</strong></p>
+                <p>Buscamos o <b>equilíbrio do corpo</b>, analisando-o como um todo e o tratamento é respeitando sua <i>individualidade</i>.</p>
+                <p>Contamos também com a <sup>terapia de reposição hormonal</sup> quando alguma <span style="color: red;">deficiência</span> clínica e laboratorial <span style="color: red">é identificada</span>, buscando <span style="color: blue;"> restaurar</span> os bons níveis hormonais, potencializando o funcionamento do corpo e restabelecendo a <span style="color: blue;"> sua harmonia</span>.</p>
+                <p>Também buscamos abordagens a fim de obter resultados otimizados e individualizados para a <u>saúde, bem-estar e qualidade de vida</u>.</p>
+                <p>Trazemos o equilíbrio do seu corpo de forma <strong>saudável</strong> e a mais <strong>natural</strong> possível. </p>
+                <p>A clínica conta com uma <strong>equipe multidisciplinar</strong> com médicos e profissionais da saúde de diversas áreas. <mark>Tudo em um único local</mark>:</p>
+                    <ol>
+                        <li>Clínico geral.</li>
+                        <li>Psicologia.</li>
+                        <li>Nutricionista.</li>
+                        <li>Oftalmologista.</li>
+                        <li>Ginecologista e obstetricia.</li>
+                        <li>Dermatologista.</li>
+                        <li>Estética.</li>
+                        <li>Pediatria.</li>
+                    </ol>
+                               
+            </div>
+    
+            <div class="footer">
+                <p><strong>Centro médico AB</strong></p>
+                <p><small><strong>Responsável técnico:</strong> Dr. Charles Leôncio.<b> CRM 8 101010</b></small></p>
+                <p><strong>E-mail:</strong> contato@centromedicoab.com.br</p>
+                <p><strong>Telefone:</strong> (41) 3800-3800 / (41) 9900-9900 (Whatsapp).</p>
+            </div>
+    
+        </div>
+    </div>
+
+    </body>
+</html>

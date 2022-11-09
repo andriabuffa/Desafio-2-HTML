@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 HTML - site "quase" completo</title>
+    <link rel="stylesheed" href="base.css">
+<style>
+table {
+    box-shadow: 10px 10px 6px -3px rgba(176,167,167,0.75);
+    -webkit-box-shadow: 10px 10px 6px -3px rgba(176,167,167,0.75);
+    -moz-box-shadow: 10px 10px 6px -3px rgba(176,167,167,0.75);
+    border: #1471B7;
+    }
+table thead th {
+    background-color: #1471B7;
+    color: white;
+}
+table tbody tr:nth-child(even) td {
+background-color: #48cfad2f;
+}
+table tbody tr:hover td {
+background-color: #48cfad;
+cursor: pointer;
+}
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-self: center;
+        }
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: #1471B7;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: #1471B7;
+            padding: 10px 20px 0px;
+        }
+        .header {
+            background-color: rgb(136, 141, 141);
+            min-height: 150px;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #48cfad;
+            min-height: 150px;
+        }
+</style>
+
+ </head>
+<body>
+    <div class="wrapper">
+        <div class="Menu">
+            <h2 align="center" style="color:white" title="Menu">Menu:</h2>
+            <ul>
+                <li><a href="index.html">Página principal.</a></li>
+                <li><a href="about.html">Sobre a clínica.</a></li>
+                <li><a href="timetable.html">Horário de atendimento.</a></li>
+                <li><a href="contact.html">Contato.</a></li>
+            </ul>
+        </div>
+    
+        <div class="main">
+            <div class="header">
+                <img src="Capa Sobre horário.png" width="1008">
+                <audio controls>
+                    <source src="I Don't Like Myself.mp3"/>
+                    Seu navegador não suporta o audio.
+                </audio>
+            </div>
+    
+        <div class="content">
+                <h3 id="timetable" style="color: #48cfad">Horário de atendimento:</h3>
+                <h6><a href="index.html">(Voltar)</a></h6>
+            </br>
+                <p>ENTRE EM CONTATO,<a href=contact.html>AGENDE SUA AVALIAÇÃO</a>.</p>
+            </br>
+                <p>Sua experiência, dentro da clínica, pode passar pela análise de todo o nosso corpo clínico e profissionais para o tratamento mais adequado respeitando sua individualidade. </p>
+                <p> São feitas avaliações, entrevistas, consultas, exames e testes para entender, de forma <u>individualizada  e  profunda</u>, as <i>suas reais necessidades</i>. </p>
+                <p>Bioimpedância, medições corporais, exames laboratoriais, testes alérgicos, imunológicos, exames complementares, check-up, diagnósticos, avaliação nutricional e psicológica, fazem parte de nossa abordagem.</p>
+                <p>Nosso <strong>espaço estética</strong> oferece uma linha de tratamentos: laser íntimo para mulheres, harmonização facial, laser para estímulo de colágeno, tratamento de pele, tratamentos capilares e tratamentos de lipo química.</p>
+                <p>Não deixe sua saúde e bem-estar em segundo plano, agende uma experiência conosco agora mesmo.</p>
+            </br>  
+
+                <table width="600" align="center" summary="Descrição" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th colspan="4">Nossos horários:</th>
+                </tr>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Segunda a Sexta</th>
+                    <th>Sábados</th>
+                    <th>Feriados</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Clínico geral</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 14:00</td>
+                    <td>08:00 ás 14:00</td>
+                </tr>
+                <tr>
+                    <td>Psicologia</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 14:00</td>
+                    <td>08:00 ás 14:00</td>
+                </tr>
+                <tr>
+                    <td>Nutricionista</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 14:00</td>
+                    <td>08:00 ás 14:00</td>
+                </tr>
+                <tr>
+                    <td>Oftalmologista</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 14:00</td>
+                    <td>08:00 ás 14:00</td>
+                </tr>
+                <tr>
+                    <td>Ginecologista e obstetricia</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 14:00</td>
+                    <td>08:00 ás 14:00</td>
+                </tr>
+                <tr>
+                    <td>Dermatologista</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 14:00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Estética</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 18:00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Pediatria</td>
+                    <td>08:00 ás 19:00</td>
+                    <td>08:00 ás 18:00</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+
+            <tfoot></tfoot>
+            
+                </table>
+                                
+        </div>
+  
+        <div class="footer">
+                <p><strong>Centro médico AB</strong></p>
+                <p><small><strong>Responsável técnico:</strong> Dr. Charles Leôncio.<b> CRM 8 101010</b></small></p>
+                <p><strong>E-mail:</strong> contato@centromedicoab.com.br</p>
+                <p><strong>Telefone:</strong> (41) 3800-3800 / (41) 9900-9900 (Whatsapp).</p>
+        </div>
+    
+        </div>
+    </div>
+
+    </body>
+</html>
